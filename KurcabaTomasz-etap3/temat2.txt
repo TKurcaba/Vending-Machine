@@ -1,0 +1,6 @@
+W Etapie 3 dodałem klasę Bledy(wraz z jej potomkami) oraz Kontener.
+Klasa Bledy została stworzona w celu obsługi wyjątków. Zawiera wirtualną funkcję Error, która w zależności, jaki wyjątek zostanie złapany to wypisze odpowiedni komunikat.
+Klasy dziedziczące po Bledy to klasy obsługujące błedy wpisywania, płatności czy błędy w kontenerze.
+Klasa Kontener została stworzona, na wzór wektora, do przechowywania Napojów (a właściwie wskaźników do Napojów w automacie ), posiada odpowiednie metody ułatwiające pracę z tymi obiektami.
+Przy okazji została użyta do przechowywania sposobów płatności.
+Dodatkowo pojawia się metoda, która usuwa opcję płatności kartą dla aktualnego klienta automatu jeśli ten zbyt dużo razy pomylił się we wpisywanie PINu.
